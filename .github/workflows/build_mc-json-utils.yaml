@@ -1,0 +1,19 @@
+name: Build Data Utils
+on:
+  push:
+    branches: master
+    paths:
+    - mc-json-utils/**
+    - '!.github/workflows/**'
+    - '!settings.gradle'
+permissions:
+  contents: read
+jobs:
+  build:
+    uses: MinecraftForge/SharedActions/.github/workflows/gradle.yml@v0
+    with:
+      java: 21
+      gradle_tasks: :mc-json-utils:build
+      project_path: mc-json-utils
+    secrets:
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
