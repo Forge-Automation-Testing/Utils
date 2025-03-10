@@ -10,7 +10,7 @@ permissions:
   contents: read
 jobs:
   build:
-    uses: MinecraftForge/SharedActions/.github/workflows/gradle.yml@v0
+    uses: Forge-Automation-Testing/SharedActions/.github/workflows/gradle.yml@v0
     with:
       java: 21
       gradle_tasks: :log-utils:build
