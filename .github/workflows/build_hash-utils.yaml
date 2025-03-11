@@ -1,7 +1,7 @@
 name: Build Hash Utils
 on:
   push:
-    branches: master
+    branches: [master]
     paths:
     - hash-utils/**
     - '!.github/workflows/**'

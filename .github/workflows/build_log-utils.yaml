@@ -1,7 +1,7 @@
 name: Build Log Utils
 on:
   push:
-    branches: master
+    branches: [master]
     paths:
     - log-utils/**
     - '!.github/workflows/**'

@@ -1,7 +1,7 @@
 name: Build Data Utils
 on:
   push:
-    branches: master
+    branches: [master]
     paths:
     - json-data-utils/**
     - '!.github/workflows/**'

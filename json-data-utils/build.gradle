@@ -3,7 +3,6 @@
 
 // TODO DELETE ME - i am triggering actions
 
-
 plugins {
     id 'java-library'
     id 'idea'
