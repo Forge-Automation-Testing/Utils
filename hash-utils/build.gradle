@@ -2,7 +2,6 @@
 //import net.ltgt.gradle.nullaway.NullAwayOptions
 
 // TODO DELETE ME - i am triggering actions
-// TODO DELETE ME - i am triggering actions
 
 plugins {
     id 'java-library'
